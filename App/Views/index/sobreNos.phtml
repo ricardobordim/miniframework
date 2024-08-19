@@ -1,0 +1,14 @@
+<h1>Sobre Nós</h1>
+<hr>
+<?php
+
+// print_r($this->view->dados);
+// echo ('Chegamos ao IndexController e disparamos o Sobre Nós ');
+foreach ($this->view->dados as $key => $produto) {
+    // echo $valor . '</br>';
+   echo  $produto['id'] . '-' .   $produto['descricao'] . '-' .  $produto['preco'];
+   echo '</br>';
+
+}
+
+?>

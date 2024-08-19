@@ -1,0 +1,11 @@
+<h1>Planejamento</h1>
+<hr>
+
+
+<?php foreach ($this->view->dados as $key => $info): ?>
+    <h1> <?= $info['titulo']?></h1>
+    <br>
+    <?= $info['descricao'] ?>
+    <hr>
+
+<?php endforeach; ?>
